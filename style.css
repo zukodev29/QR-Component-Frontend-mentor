@@ -1,0 +1,201 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+html, body{
+    max-height: 100%;
+}  
+
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+/*
+  3. Allow percentage-based heights in the application
+*/
+html, body {
+  height: 100%;
+}
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+/*
+  6. Improve media defaults
+*/
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+/*
+  7. Remove built-in form typography styles
+*/
+input, button, textarea, select {
+  font: inherit;
+}
+/*
+  8. Avoid text overflows
+*/
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+/*
+  9. Create a root stacking context
+*/
+#root, #__next {
+  isolation: isolate;
+}
+/*CSS reset code*/
+/*Font face that we used for this project*/
+@font-face {
+    font-family: 'Red Hat Display';
+    src: url(/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+/*Basic code for the body of our web page*/
+body{
+    font-family: 'Red Hat Display';
+    font-size: 1rem;
+    max-width: 1440px;
+    background-color: rgb(224,232,255);
+}
+/*Code for the main class in section,so it can position web page card in the center of the web page*/
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*Code for the content class,this is code for the height,width and basic design for main card on the page*/
+.content{
+    height: 700px;
+    width: 450px;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 20px;
+    margin-top: 100px;
+    margin-left: 150px;
+    margin-bottom: 40px;
+}
+/*Code for the content text,for the padding around text and other elements below image*/
+.content-text{
+    padding: 50px;
+}
+/*Border radius for the image at the top*/
+.header-image img{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+/*Code for header*/
+header{
+    margin-bottom: 14px;
+}
+/*Code for the text below header image*/
+.header-text{
+    font-size: 30px;
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-left: 50px;
+}
+/*Cide for the text below image*/
+.header-sub-text{
+    margin-bottom: 20px;
+}
+/*Code for the gray text under the header text*/
+.sub-text{
+    color: hsl(224, 23%, 55%);
+    margin-left: 30px;
+    font-weight: 500;
+    font-size: 17px;
+}
+/*Code for the last line of the gray text under header text so it can be in the center of the text*/
+.text-center{
+    margin-left: 80px;
+}
+/*Code for the music plan*/
+.plan{
+    height: 90px;
+    width: 360px;
+    background-color: hsl(225, 100%, 94%,0.4);
+    border-radius: 10px;
+}
+/*Music image in the plan class*/
+.plan-image img{
+    padding: 22px;
+}
+/*Positioning header of the plan text*/
+.plan-header{
+    margin-left: 90px;
+    margin-top: -69px;
+}
+/*Plan header text code*/
+.plan-header-text{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+}
+/*Position for the price of the plan*/
+.plan-price{
+      margin-left: 90px;
+}
+/*Code for the price text class*/
+.price-text{
+    color: hsl(224, 23%, 55%);
+    font-weight: 700;
+}
+/*Code for the link-change*/
+.link{
+    margin-left: 280px;
+    margin-top: -38px;
+}
+/*Code for the link-change*/
+.link a{
+    color: hsl(245, 75%, 52%);
+    font-weight: 700;
+}
+/*Code for the payment link*/
+.payment-link{
+    height: 50px;
+    width: 360px;
+    background-color: hsl(245, 75%, 52%);
+    border-radius: 10px;
+    margin-top: 35px;
+}
+/*Code for its text*/
+.payment-link-text{
+    color: hsl(225, 100%, 98%);
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px;
+    padding-top: 13px;
+}
+/*Code for the cancel-link class*/
+.cancel-link{
+    color: hsl(224, 23%, 55%);
+    font-weight: 900;
+    margin-top: 30px;
+}
+/*Position of the cancel-link-text*/
+.cancel-link-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*Code for the attribution class*/
+.attribution{
+    margin-left: 150px;
+}
+/*One more mention you can find color very easy with https://imagecolorpicker.com/,just drop preview image of your
+frontend project and you can find exact color as on image*/
